@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+header{
+    text-align: center;
+    color: blue;
+}
+
+h1,h2{
+    margin: 0;
+    color : red;
+    background-color: yellow;
+}
+
+.main-add h2{
+    margin: 10px 0px;
+
+}
+
+.main-edit h2{
+    margin: 10px 0px;
+}
+
+.student-table{
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+h1{
+    background-color: yellow;
+}
+
+label{
+    display: block;
+    color: green;
+}
+
+.addform{
+    background-color: aquamarine;
+    padding: 10px;
+    max-width: 500px;
+    box-shadow: 10px 10px 20px blue;
+}
+
+
+.addinput{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.inputs{
+    padding: 10px;
+    width: 100%;
+}
+
+input[type='submit']{
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type= 'submit']:hover{
+    background-color: green
+}
+
+.text-area{
+    resize: none;
+}
+
+.text-area:focus{
+    border: 0;
+    outline: 0;
+}
+
+.addinputs label{
+    margin: 5px 0px;
+}
+
+.mainback{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+}
+.student-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0;
+}
